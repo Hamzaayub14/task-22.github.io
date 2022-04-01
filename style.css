@@ -1,0 +1,68 @@
+body{
+    background-color: #D345EF;
+    /* position: relative; */
+    height: 100vh;
+
+}
+.container{
+    background-color: #f0f0f0;
+/* position:absolute; */
+    /* display: flex;
+    flex-direction: column; */
+    /* justify-content: center; */
+    max-width: 38rem;
+    border-radius: 1rem;
+    position: relative;
+top: 50%;
+transform: translateY(-50%);
+    /* align-items: center; */
+    padding: 1rem;
+    
+}
+.drop1{
+    display: flex;
+    justify-content: space-between;
+    background:#f1e5fe;
+    border-radius: 1rem;
+    padding: 0.45rem;
+    margin: 1rem;
+}
+.drop1 :hover{
+   
+    /* display: flex; */
+    /* justify-content: space-between; */
+
+
+    /* padding: 0.45rem;
+    margin: 1rem; */
+    background: #cd9eff;
+    border-radius: 1rem;
+
+}
+.drop1 button{
+    border: none;
+    background-color: transparent;
+    color: #60268D;
+    font-weight: 600;
+}
+.drop1 i{
+    color: #60268D;
+    margin-left: 19rem;
+
+}
+.drop2 i{
+margin-left: 17rem;
+
+}
+.drop1content{
+    margin-left: 0.8rem;
+    display: none;
+}
+
+.drop2content{
+    margin-left: 0.8rem;
+    display: none;
+}
+.active{
+    display: block;
+}
